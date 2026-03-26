@@ -1,0 +1,6 @@
+- [x] Estrutura inicial criada
+- [ ] Customizar conforme requisitos do usuário
+- [ ] Instalar extensões necessárias (se houver)
+- [ ] Compilar o projeto
+- [ ] Criar e rodar task
+- [ ] Garantir documentação
