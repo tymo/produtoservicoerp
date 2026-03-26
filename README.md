@@ -1,6 +1,6 @@
 # Desafio Java - ERP - Denis Metzner 1
 
-# PROVA NÍVEL III
+# PROVA NÍVEL III - Implementada por Rafael Maus
 
 # ProductServiceERP
 
@@ -13,7 +13,7 @@
    mvn clean package
    mvn spring-boot:run
    ```
-   Acesse os endpoins abaixo para listar os dados de exemplo:
+   Acesse os endpoints abaixo para listar os dados de exemplo:
    - http://localhost:8080/produtoservico
    - http://localhost:8080/itempedido
    - http://localhost:8080/pedido
