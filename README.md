@@ -14,9 +14,9 @@
    mvn spring-boot:run
    ```
    Acesse os endpoins abaixo para listar os dados de exemplo:
-   http://localhost:8080/produtoservico
-   http://localhost:8080/itempedido
-   http://localhost:8080/pedido
+   - http://localhost:8080/produtoservico
+   - http://localhost:8080/itempedido
+   - http://localhost:8080/pedido
 
 ## Testes automatizados
 
