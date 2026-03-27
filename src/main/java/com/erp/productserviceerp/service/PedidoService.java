@@ -1,9 +1,11 @@
-package com.example.productserviceerp.service;
+package com.erp.productserviceerp.service;
 
-import com.example.productserviceerp.model.Pedido;
-import com.example.productserviceerp.model.ItemPedido;
+import com.erp.productserviceerp.model.Pedido;
+import com.erp.productserviceerp.model.ItemPedido;
 import org.springframework.stereotype.Service;
 import java.math.BigDecimal;
+import com.erp.productserviceerp.model.Pedido;
+import com.erp.productserviceerp.model.ItemPedido;
 
 @Service
 public class PedidoService {

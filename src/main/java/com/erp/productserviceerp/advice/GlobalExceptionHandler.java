@@ -1,4 +1,4 @@
-package com.example.productserviceerp.advice;
+package com.erp.productserviceerp.advice;
 
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;

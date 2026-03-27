@@ -1,0 +1,43 @@
+# Maven
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ
+*.iml
+.idea/
+out/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Others
+*.swp
+*.swo
+
+# Ignore environment files
+.env
+
+# Ignore database files
+*.h2.db
+*.mv.db
+*.sqlite
+
+# Ignore test reports
+/surefire-reports/
+/failsafe-reports/
+
+# Ignore build artifacts
+/build/
+/bin/

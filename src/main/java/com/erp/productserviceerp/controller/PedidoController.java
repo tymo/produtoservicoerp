@@ -1,8 +1,11 @@
-package com.example.productserviceerp.controller;
+package com.erp.productserviceerp.controller;
 
-import com.example.productserviceerp.model.Pedido;
-import com.example.productserviceerp.repository.PedidoRepository;
-import com.example.productserviceerp.service.PedidoService;
+import com.erp.productserviceerp.model.Pedido;
+import com.erp.productserviceerp.repository.PedidoRepository;
+import com.erp.productserviceerp.service.PedidoService;
+import com.erp.productserviceerp.model.Pedido;
+import com.erp.productserviceerp.repository.PedidoRepository;
+import com.erp.productserviceerp.service.PedidoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

@@ -1,8 +1,11 @@
-package com.example.productserviceerp.controller;
+package com.erp.productserviceerp.controller;
 
-import com.example.productserviceerp.model.ProdutoServico;
-import com.example.productserviceerp.repository.ProdutoServicoRepository;
-import com.example.productserviceerp.repository.ItemPedidoRepository;
+import com.erp.productserviceerp.model.ProdutoServico;
+import com.erp.productserviceerp.repository.ProdutoServicoRepository;
+import com.erp.productserviceerp.repository.ItemPedidoRepository;
+import com.erp.productserviceerp.model.ProdutoServico;
+import com.erp.productserviceerp.repository.ProdutoServicoRepository;
+import com.erp.productserviceerp.repository.ItemPedidoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

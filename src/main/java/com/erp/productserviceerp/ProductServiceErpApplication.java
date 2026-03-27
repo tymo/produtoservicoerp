@@ -1,4 +1,4 @@
-package com.example.productserviceerp;
+package com.erp.productserviceerp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

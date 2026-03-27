@@ -1,4 +1,4 @@
-package com.example.productserviceerp.model;
+package com.erp.productserviceerp.model;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;

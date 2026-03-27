@@ -1,8 +1,8 @@
-package com.example.productserviceerp.controller;
+package com.erp.productserviceerp.controller;
 
-import com.example.productserviceerp.model.ItemPedido;
-import com.example.productserviceerp.repository.ItemPedidoRepository;
-import com.example.productserviceerp.repository.ProdutoServicoRepository;
+import com.erp.productserviceerp.model.ItemPedido;
+import com.erp.productserviceerp.repository.ItemPedidoRepository;
+import com.erp.productserviceerp.repository.ProdutoServicoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -12,6 +12,9 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.Optional;
 import java.util.UUID;
+import com.erp.productserviceerp.model.ItemPedido;
+import com.erp.productserviceerp.repository.ItemPedidoRepository;
+import com.erp.productserviceerp.repository.ProdutoServicoRepository;
 
 @RestController
 @RequestMapping("/itempedido")
@@ -70,7 +73,7 @@ public class ItemPedidoController {
     private void validarItemPedido(ItemPedido itemPedido) {
         var produtoServico = produtoServicoRepository.findById(itemPedido.getProdutoServico().getId())
                 .orElseThrow(() -> new IllegalArgumentException("Produto/Serviço não encontrado."));
-        if (produtoServico.getTipo() == com.example.productserviceerp.model.ProdutoServico.Tipo.PRODUTO) {
+        if (produtoServico.getTipo() == com.erp.productserviceerp.model.ProdutoServico.Tipo.PRODUTO) {
             if (produtoServico.getAtivado() == null || !produtoServico.getAtivado()) {
                 throw new IllegalArgumentException("O produto '" + produtoServico.getNome() + "' está desativado e não pode ser adicionado ao pedido.");
             }

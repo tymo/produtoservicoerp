@@ -1,6 +1,7 @@
-package com.example.productserviceerp.repository;
+package com.erp.productserviceerp.repository;
 
-import com.example.productserviceerp.model.Pedido;
+import com.erp.productserviceerp.model.Pedido;
+import com.erp.productserviceerp.model.Pedido;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import java.util.UUID;

@@ -1,7 +1,7 @@
-package com.example.productserviceerp.controller;
+package com.erp.productserviceerp.controller;
 
-import com.example.productserviceerp.model.Pedido;
-import com.example.productserviceerp.repository.PedidoRepository;
+import com.erp.productserviceerp.model.Pedido;
+import com.erp.productserviceerp.repository.PedidoRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.AfterEach;
